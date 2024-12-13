@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/11/chill-guy-background.jpg");
+  background-image: url("https://img.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-68098.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,6 +7,46 @@ body {
   margin-top: 10%;
 }
 
+.typewriter h2 {
+  color: white;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid white; 
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
 html{
   height: 100%;
   width: 100%;
@@ -33,9 +73,6 @@ html{
   border: 15px double #8bbcbbff;
 }
 
-h2{
-  color: black;
-}
 
 #start{
   text-align: left;
