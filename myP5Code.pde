@@ -36,7 +36,8 @@ ellipse (231,67,5,5)
 
 //clouds//
 fill(145,191,217,220)
-curveVertex(70, 200, 10, 80)
+curveVertex(70,200,10,80)
+triangle (40,40,30,50)
 ellipse (89,360,120,60)
 ellipse (40,320,100,60)
 ellipse (40,320,100,60)
